@@ -21,11 +21,11 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-inline: 80px;
 }
 
 header{
     height: 200px;
-    background-color: yellow;
     display: flex;
     justify-content: space-between;
     align-items: center;
