@@ -35,7 +35,10 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-color: lightgray;
+    background-image: url('./img/fantalogo2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .menu ul {
@@ -68,7 +71,7 @@ main{
 .conteudo button{
     height: 96px;
     width: 300px;
-    background-color: black;
+    background-color: #f89e1b;
     color: white;
     font-size: 32px;
 
@@ -89,8 +92,9 @@ main{
 
 .destaque {
     width: 50%;
-    background-color: lightgray;
+    background-image: url('./img/fantadestaque.png');
 }
+
 footer{
     height: 100px;
     display: flex;
