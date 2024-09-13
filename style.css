@@ -46,6 +46,7 @@ header{
     display: flex;
     gap: 32px;
     font-size: 32px;
+    color: white;
 }
 
 main{
@@ -62,21 +63,24 @@ main{
 
 .conteudo h1 {
     font-size: 150px;
-    color: #22652f;
-    text-shadow:white 2px -2px, white -2px 2px, white 2px 2px, white -2px -2px
+    color: white;
+    text-shadow:#11246F 5px -5px, #11246F -5px 5px, #11246F 5px 5px, #11246F -5px -5px
 }
 
 .conteudo p {
     font-size: 40px;
     font-weight: bold;
     width: 80%;
-    color: #11246F;
+    color: white;
+    background-color: #55ba00;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .conteudo button{
     height: 96px;
     width: 300px;
-    background-color: #f89e1b;
+    background-color: #11246F;
     color: white;
     font-size: 32px;
     border: none;
@@ -94,7 +98,27 @@ main{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: lightgray;
+}
+
+#imagem1 {
+    background-image: url('./img/insta.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagem2 {
+    background-image: url('./img/whats.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagem3 {
+    background-image: url('./img/snap.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .destaque {
