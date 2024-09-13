@@ -74,7 +74,9 @@ main{
     background-color: #f89e1b;
     color: white;
     font-size: 32px;
-
+    border: none;
+    border-radius: 200px;
+    box-shadow: 5px 5px 100px #f89e1b;
 }
 
 .conteudo .social {
