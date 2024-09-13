@@ -89,9 +89,12 @@ main{
 
 .destaque {
     width: 50%;
-    background-color: lightcyan;
+    background-color: lightgray;
 }
 footer{
     height: 100px;
-    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
 }
